@@ -53,10 +53,9 @@ table {
   width: 100%;
 }
 
-table,
 td {
   border-bottom: 1px solid #eee;
-  padding: 7px;
+  padding: 8px;
 }
 
 .info_hobbies {
