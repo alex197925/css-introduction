@@ -42,17 +42,33 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+/* 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+} */
+
+.info h4 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #d35e35;
+}
 
 table {
   width: 100%;
 }
 
 table,
-th,
 td {
-  border: 1px solid black;
+  border-bottom: 1px solid #eee;
+  padding: 7px;
 }
 
-th {
-  padding: 20px;
+.info_hobbies {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
 }
