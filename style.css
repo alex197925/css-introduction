@@ -1,0 +1,39 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+.slogan {
+  position: absolute;
+  top: 224px;
+  right: 777px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  padding: 20px;
+}
