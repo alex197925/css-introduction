@@ -109,3 +109,13 @@ h4 {
 .hobbies li {
   font-size: 20px;
 }
+
+.color {
+  color: #d35e35;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.hobbies ul {
+  padding-bottom: 3px;
+}
