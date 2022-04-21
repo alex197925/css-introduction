@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
+  padding: 60px;
 }
 
 .intro h1 {
@@ -43,35 +44,47 @@ img {
   background: linear-gradient(60deg, #fff 10%, #ce80 100%);
 }
 
-/* 
-
-.slogan {
-  position: absolute;
-  color: #d35e35;
-  top: 231px;
-  font-size: 87px;
-  margin-left: 380px;
-  text-transform: uppercase;
-} */
-
-/* .info h4 {
-  font-size: 40px;
-  font-weight: 300;
-  color: #d35e35;
-} */
-
-table {
+.styled-table {
+  border-collapse: collapse;
   width: 100%;
+  color: #fff;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-td {
-  border-bottom: 1px solid #eee;
-  padding: 8px;
+.styled-table thead tr {
+  background-color: #d35e35;
+  color: #ffffff;
+  text-align: left;
 }
 
-.info_hobbies {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 30px;
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
 }
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #d35e35;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #000;
+}
+
+/* .main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
